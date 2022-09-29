@@ -5,10 +5,33 @@
 }
 
 .activity {
+
     width: 300px;
     height: 510px;
     border: 1px solid slateblue;
     border-radius: 8px;
-    padding: 10px 5px 10px 15px;
+    /* padding: 10px 5px 10px 5px; */
+    padding: 5px;
     margin: 7px;
+
+}
+
+.blog-info h1,
+h3,
+p {
+    margin: 0px;
+}
+
+.blog-title {
+    color: rgb(34, 98, 201);
+}
+
+.btn-cart {
+    width: 286px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #008CBA;
+    border-color: aliceblue;
+    color: white;
+    border-radius: 5px;
 }

@@ -1,10 +1,61 @@
 .container {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 .activity-container {
+    background-color: #e6faf3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.details-container {
+    background-color: #faf0e6;
+    margin: 5px;
+    padding: 5px;
+}
+
+.info {
+    display: flex;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: gray;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.info-container {
+    margin: 2px;
+    padding: 12px;
+
+}
+
+.info-btn {
+    display: flex;
+    text-align: center;
+}
+
+.info-btn-number {
+    margin: 10px;
+    padding: 10px;
+}
+
+.activity-btn {
+    background-color: #008CBA;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-color: white;
+    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
+
 }
