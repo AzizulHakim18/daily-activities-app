@@ -5,12 +5,19 @@ import './Activities.css';
 const Actvities = () => {
 
     const [activities, setActivities] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setActivities(data))
     }, [])
+
+    const handleAddToCart = (activity) => {
+        console.log(activity);
+        const newCart = [...cart, activity];
+        setCart(newCart);
+    }
 
     return (
         <div className='container'>
@@ -19,6 +26,7 @@ const Actvities = () => {
                     activities.map(activity => <Activity
                         key={activity._id}
                         activity={activity}
+                        handleAddToCart={handleAddToCart}
                     ></Activity>)
                 }
 
@@ -52,8 +60,8 @@ const Actvities = () => {
                 </div>
                 <div>
                     <h1>Exercise Details</h1>
-                    <h3>Exercise Time: <input type="text" name="" id="" /></h3>
-                    <h3>Break Time: <input type="text" name="" id="" /></h3>
+                    <h3>Exercise Time: {cart.length}</h3>
+                    <h3>Break Time: { }</h3>
                 </div>
 
                 <div>
