@@ -6,6 +6,7 @@ const Actvities = () => {
 
     const [activities, setActivities] = useState([]);
     const [cart, setCart] = useState([]);
+    const [getTime, setGetTime] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
@@ -14,9 +15,17 @@ const Actvities = () => {
     }, [])
 
     const handleAddToCart = (activity) => {
-        console.log(activity);
+        // console.log(activity);
         const newCart = [...cart, activity];
         setCart(newCart);
+        // const getTime = activity.time;
+        let getTime = 0;
+        for (const time of newCart) {
+            // console.log(time.time);
+            getTime = getTime + parseInt(time.time);
+        }
+        console.log(cart);
+        setGetTime(getTime);
     }
 
     return (
@@ -60,8 +69,8 @@ const Actvities = () => {
                 </div>
                 <div>
                     <h1>Exercise Details</h1>
-                    <h3>Exercise Time: {cart.length}</h3>
-                    <h3>Break Time: { }</h3>
+                    <h3>Exercise Time: {getTime}</h3>
+                    <h3>Break Time:</h3>
                 </div>
 
                 <div>
