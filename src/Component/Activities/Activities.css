@@ -44,9 +44,12 @@
     text-align: center;
 }
 
-.info-btn-number {
+.info-btn button {
     margin: 10px;
     padding: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: 1px solid white;
 }
 
 .activity-btn {

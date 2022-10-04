@@ -60,21 +60,21 @@ const Actvities = () => {
                 </div>
                 <div><h1>Add a Break</h1>
                     <div className='info-btn'>
-                        <button className='info-btn-number'>10s</button>
-                        <button className='info-btn-number'>20s</button>
-                        <button className='info-btn-number'>30s</button>
-                        <button className='info-btn-number'>40s</button>
-                        <button className='info-btn-number'>50s</button>
+                        <button className='btn-number-10'>10s</button>
+                        <button className='btn-number-20'>20s</button>
+                        <button className='btn-number-30'>30s</button>
+                        <button className='btn-number-40'>40s</button>
+                        <button className='btn-number-50'>50s</button>
                     </div>
                 </div>
                 <div>
-                    <h1>Exercise Details</h1>
-                    <h3>Exercise Time: {getTime}</h3>
+                    <h1>Today's work Details</h1>
+                    <h3>Total work Time: {getTime}</h3>
                     <h3>Break Time:</h3>
                 </div>
 
                 <div>
-                    <button className='activity-btn'>Activity Completed</button>
+                    <button className='activity-btn' onClick={() => alert("Your Todays work done")}>Activity Completed</button>
                 </div>
             </div>
 

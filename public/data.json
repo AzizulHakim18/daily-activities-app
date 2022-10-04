@@ -47,7 +47,7 @@
         "icon": "img/sports.jpg",
         "email": "garrisonlove@tetak.com",
         "address": "743 Brigham Street, Riner, Palau, 454",
-        "about": "Velit occaecat enim laboris ex amet consequat. Incididunt qui dolor tempor ut minim irure quis veniam laboris do amet pariatur.\r\n"
+        "about": "Velit occaecat enim laboris ex amet consequat. Incididunt qui dolor tempor ut minim .\r\n"
     },
     {
         "_id": 6,
@@ -57,7 +57,7 @@
         "icon": "img/reading.jpg",
         "email": "almasanders@fanfare.com",
         "address": "435 Oriental Court, Greenwich, New Mexico, 6741",
-        "about": "Minim deserunt ea minim velit id ea incididunt nulla irure fugiat. Eu elit in laboris laboris in id occaecat. \r\n"
+        "about": "Minim deserunt ea minim velit id ea incididunt nulla irure fugiat. Eu elit in laboris .\r\n"
     },
     {
         "_id": 7,
@@ -67,7 +67,7 @@
         "icon": "img/dinner.jpg",
         "email": "judithreese@otherside.com",
         "address": "525 Mill Avenue, Kersey, Tennessee, 5116",
-        "about": "Adipisicing velit veniam excepteur proident exercitation minim eiusmod proident consectetur laborum ex. \r\n"
+        "about": "Adipisicing velit veniam excepteur proident exercitation minim eiusmod proident consectetur. \r\n"
     },
     {
         "_id": 8,
@@ -77,6 +77,6 @@
         "icon": "img/sleeping.jpg",
         "email": "judithreese@otherside.com",
         "address": "525 Mill Avenue, Kersey, Tennessee, 5116",
-        "about": "Adipisicing velit veniam excepteur proident exercitation minim eiusmod proident consectetur laborum ex. \r\n"
+        "about": "Adipisicing velit veniam excepteur proident exercitation minim eiusmod proident consectetur. \r\n"
     }
 ]
